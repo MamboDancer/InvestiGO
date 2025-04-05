@@ -1,0 +1,12 @@
+SET(SOURCES screens/ui_HomePage.c
+    screens/ui_MainScreen.c
+    screens/ui_LogInChoose.c
+    screens/ui_RegisterScreen.c
+    screens/ui_MoneyDelegateScreen.c
+    screens/ui_SuccessScreen.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c)
+
+add_library(ui ${SOURCES})

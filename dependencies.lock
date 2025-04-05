@@ -1,0 +1,31 @@
+dependencies:
+  espressif/esp_lcd_touch:
+    dependencies: []
+    source:
+      path: E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch
+      type: local
+    version: 1.1.1
+  espressif/esp_lcd_touch_gt911:
+    dependencies: []
+    source:
+      path: E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch_gt911
+      type: local
+    version: 1.1.0
+  idf:
+    source:
+      type: idf
+    version: 5.3.1
+  lvgl/lvgl:
+    dependencies: []
+    source:
+      path: E:\EspressIfffNewWorkspawne\sdasdaads\components\lvgl__lvgl
+      type: local
+    version: 8.3.11
+direct_dependencies:
+- espressif/esp_lcd_touch
+- espressif/esp_lcd_touch_gt911
+- idf
+- lvgl/lvgl
+manifest_hash: 50f3a3e89d324c320c9e1172681dd5ece98778da18f5648da99c54f418ba2a2e
+target: esp32s3
+version: 2.0.0

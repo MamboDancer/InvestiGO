@@ -1,0 +1,142 @@
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+Using component placed at E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch for dependency "espressif/esp_lcd_touch"(introduced by component "espressif/esp_lcd_touch_gt911")
+Using component placed at E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch_gt911 for dependency "espressif/esp_lcd_touch_gt911", specified in E:\EspressIfffNewWorkspawne\sdasdaads\main\idf_component.yml
+Using component placed at E:\EspressIfffNewWorkspawne\sdasdaads\components\lvgl__lvgl for dependency "lvgl/lvgl", specified in E:\EspressIfffNewWorkspawne\sdasdaads\main\idf_component.yml
+Using component placed at E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch for dependency "espressif/esp_lcd_touch"(introduced by component "espressif/esp_lcd_touch_gt911"), specified in E:\EspressIfffNewWorkspawne\sdasdaads\main\idf_component.yml
+Using component placed at E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch for dependency "espressif/esp_lcd_touch", specified in E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch_gt911\idf_component.yml
+Processing 4 dependencies:
+[1/4] espressif/esp_lcd_touch (1.1.1) (E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch)
+[2/4] espressif/esp_lcd_touch_gt911 (1.1.0) (E:\EspressIfffNewWorkspawne\sdasdaads\components\espressif__esp_lcd_touch_gt911)
+[3/4] lvgl/lvgl (8.3.11) (E:\EspressIfffNewWorkspawne\sdasdaads\components\lvgl__lvgl)
+[4/4] idf (5.3.1)
+-- Project sdkconfig file E:/EspressIfffNewWorkspawne/sdasdaads/sdkconfig
+Loading defaults file E:/EspressIfffNewWorkspawne/sdasdaads/sdkconfig.defaults...
+Loading defaults file E:/EspressIfffNewWorkspawne/sdasdaads/sdkconfig.defaults.esp32s3...
+-- Compiler supported targets: xtensa-esp-elf
+-- App "CashCard" version: 1
+-- Adding linker script E:/EspressIfffNewWorkspawne/sdasdaads/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script E:/EspressIfffNewWorkspawne/sdasdaads/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-idf-pn532 esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_vfs_console esp_wifi espcoredump espressif__esp_lcd_touch espressif__esp_lcd_touch_gt911 esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lvgl__lvgl lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/app_trace E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/app_update E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bootloader E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bootloader_support E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bt E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/cmock E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/console E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/cxx E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/driver E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/efuse E:/EspressIfffNewWorkspawne/sdasdaads/components/esp-idf-pn532 E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp-tls E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_adc E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_app_format E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_bootloader_format E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_coex E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_common E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_ana_cmpr E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_cam E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_dac E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_gpio E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_gptimer E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_i2c E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_i2s E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_isp E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_jpeg E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_ledc E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_mcpwm E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_parlio E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_pcnt E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_ppa E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_rmt E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_sdio E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_sdm E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_sdmmc E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_sdspi E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_spi E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_touch_sens E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_tsens E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_uart E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_driver_usb_serial_jtag E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_eth E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_event E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_gdbstub E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_hid E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_http_client E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_http_server E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_https_ota E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_https_server E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_hw_support E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_lcd E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_local_ctrl E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_mm E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_netif E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_netif_stack E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_partition E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_phy E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_pm E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_psram E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_ringbuf E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_system E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_timer E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_vfs_console E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_wifi E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/espcoredump E:/EspressIfffNewWorkspawne/sdasdaads/components/espressif__esp_lcd_touch E:/EspressIfffNewWorkspawne/sdasdaads/components/espressif__esp_lcd_touch_gt911 E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esptool_py E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/fatfs E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/freertos E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/hal E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/heap E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/http_parser E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/idf_test E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/ieee802154 E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/json E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/log E:/EspressIfffNewWorkspawne/sdasdaads/components/lvgl__lvgl E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/lwip E:/EspressIfffNewWorkspawne/sdasdaads/main E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/mbedtls E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/mqtt E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/newlib E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/nvs_flash E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/nvs_sec_provider E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/openthread E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/partition_table E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/perfmon E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/protobuf-c E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/protocomm E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/pthread E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/sdmmc E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/soc E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/spi_flash E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/spiffs E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/tcp_transport E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/touch_element E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/ulp E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/unity E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/usb E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/vfs E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/wear_levelling E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/wifi_provisioning E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/wpa_supplicant E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/EspressIfffNewWorkspawne/sdasdaads/build
+[0/1] Re-running CMake...
+[1/5] cmd.exe /C "cd /D E:\EspressIfffNewWorkspawne\sdasdaads\build\esp-idf\esptool_py && E:\EspressifAIDIE\python_env\idf5.3_py3.11_env\Scripts\python.exe E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app E:/EspressIfffNewWorkspawne/sdasdaads/build/partition_table/partition-table.bin E:/EspressIfffNewWorkspawne/sdasdaads/build/CashCard.bin"
+CashCard.bin binary size 0x16d290 bytes. Smallest app partition is 0x300000 bytes. 0x192d70 bytes (52%) free.
+[2/5] Performing build step for 'bootloader'
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file E:/EspressIfffNewWorkspawne/sdasdaads/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld
+-- Adding linker script E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bootloader E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bootloader_support E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/efuse E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_app_format E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_bootloader_format E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_common E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_hw_support E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_rom E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esp_system E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esptool_py E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/freertos E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/hal E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/log E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/main E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/components/micro-ecc E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/newlib E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/partition_table E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/soc E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/spi_flash E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/EspressIfffNewWorkspawne/sdasdaads/build/bootloader
+[0/1] Re-running CMake...
+[1/1] cmd.exe /C "cd /D E:\EspressIfffNewWorkspawne\sdasdaads\build\bootloader\esp-idf\esptool_py && E:\EspressifAIDIE\python_env\idf5.3_py3.11_env\Scripts\python.exe E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 E:/EspressIfffNewWorkspawne/sdasdaads/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5260 bytes. 0x2da0 bytes (36%) free.
+[2/3] cmd.exe /C "cd /D E:\EspressifAIDIE\frameworks\esp-idf-v5.3.1\components\esptool_py && E:\EspressifAIDIE\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1 -D SERIAL_TOOL=E:/EspressifAIDIE/python_env/idf5.3_py3.11_env/Scripts/python.exe;;E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esptool_py/esptool/esptool.py;--chip;esp32s3 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=E:/EspressIfffNewWorkspawne/sesptool.py --chip esp32s3 -p COM5 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 8MB 0x0 bootloader/bootloader.bin 0x10000 CashCard.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port COM5
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: d8:3b:da:ab:5a:c0
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x0017dfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 21088 bytes to 13052...
+Writing at 0x00000000... (100 %)
+Wrote 21088 bytes (13052 compressed) at 0x00000000 in 0.6 seconds (effective 281.2 kbit/s)...
+Hash of data verified.
+Compressed 1495696 bytes to 842091...
+Writing at 0x00010000... (1 %)
+Writing at 0x0001d539... (3 %)
+Writing at 0x00029662... (5 %)
+Writing at 0x000316e0... (7 %)
+Writing at 0x0003ee3f... (9 %)
+Writing at 0x0004c530... (11 %)
+Writing at 0x0005b64c... (13 %)
+Writing at 0x0006da7f... (15 %)
+Writing at 0x00073c37... (17 %)
+Writing at 0x0007955c... (19 %)
+Writing at 0x00085804... (21 %)
+Writing at 0x0008b603... (23 %)
+Writing at 0x0009189a... (25 %)
+Writing at 0x00097b50... (26 %)
+Writing at 0x0009e018... (28 %)
+Writing at 0x000a437a... (30 %)
+Writing at 0x000aa836... (32 %)
+Writing at 0x000b04ee... (34 %)
+Writing at 0x000b6644... (36 %)
+Writing at 0x000bc227... (38 %)
+Writing at 0x000c1fba... (40 %)
+Writing at 0x000c7f59... (42 %)
+Writing at 0x000cdd3a... (44 %)
+Writing at 0x000d3f56... (46 %)
+Writing at 0x000da131... (48 %)
+Writing at 0x000dfc1c... (50 %)
+Writing at 0x000e5a1d... (51 %)
+Writing at 0x000eb673... (53 %)
+Writing at 0x000f13cb... (55 %)
+Writing at 0x000f71d4... (57 %)
+Writing at 0x000fd125... (59 %)
+Writing at 0x001035f1... (61 %)
+Writing at 0x00108956... (63 %)
+Writing at 0x0010d8f0... (65 %)
+Writing at 0x00112ae7... (67 %)
+Writing at 0x00117b2e... (69 %)
+Writing at 0x0011ce2e... (71 %)
+Writing at 0x00122270... (73 %)
+Writing at 0x0012819a... (75 %)
+Writing at 0x0012d950... (76 %)
+Writing at 0x0013358f... (78 %)
+Writing at 0x00139d58... (80 %)
+Writing at 0x0013f742... (82 %)
+Writing at 0x001451f5... (84 %)
+Writing at 0x0014acc8... (86 %)
+Writing at 0x0015029c... (88 %)
+Writing at 0x00156c64... (90 %)
+Writing at 0x00162281... (92 %)
+Writing at 0x001692db... (94 %)
+Writing at 0x0016ef64... (96 %)
+Writing at 0x001755a1... (98 %)
+Writing at 0x0017a98f... (100 %)
+Wrote 1495696 bytes (842091 compressed) at 0x00010000 in 19.2 seconds (effective 623.6 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.0 seconds (effective 535.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+dasdaads/build -P E:/EspressifAIDIE/frameworks/esp-idf-v5.3.1/components/esptool_py/run_serial_tool.cmake"

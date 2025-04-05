@@ -40,9 +40,8 @@
 #### 2️⃣ Клонування та ініціалізація проєкту
 
 ```
-git clone https://github.com/your-username/smart-invest.git
-cd smart-invest
-. $HOME/esp/esp-idf/export.sh
+git clone https://github.com/MamboDancer/InvestiGO
+cd InvestiGO
 ```
 
 ---
